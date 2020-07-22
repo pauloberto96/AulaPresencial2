@@ -11,5 +11,11 @@ namespace PrevisaoTempoAPI.Repository
         void Cadastrar(Endereco endereco);
 
         List<Endereco> ListarEnderecos();
+
+        Endereco ListarEndereco(string cep);
+
+        void AlterarEndereco(Endereco endereco);
+
+        void DeletarEndereco(int id);
     }
 }
